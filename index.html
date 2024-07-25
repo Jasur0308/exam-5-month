@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 12</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Jomolhari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="hero">
+        <div class="container">
+            <div class="navbar__wrapper">
+                <img src="./images/logo.svg" alt="">
+                <a class="item__link" href="./pages/dashboard.html">Create a new post</a>
+                <ul class="navbar__lists">
+                    <li class="navbat__item"><a class="item__link" href="./pages/login.html">Log in</a></li>
+                    <li class="navbat__item"><a class="item__link" href="./pages/sign-up.html">sign up</a></li>
+                </ul>
+            </div>
+        </div>
+        <img class="hero__image" src="./images/hero.png" alt="">
+    </nav>
+
+    <div class="articles">
+        <div class="container">
+            <h3 class="main__title">All articles</h3>
+            <div class="cards">
+                <div class="card">
+                    <img id="image" src="" alt="">
+                    <div class="card__content">
+                        <h4 class="title">It is about Nature</h4>
+                        <p class="description">It is about nature lorem ipsum dolor sit amet. Dolor sit It is about nature lorem ipsum dolor sit amet....</p>
+                        <div class="card__bottom">
+                            <img src="./images/author.png" alt="">
+                            <div class="card__author">
+                                <p class="name">Ibrokhim Jalalov</p>
+                                <span class="role">author</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="articles__about-wrapper">
+        <div id="articles"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script/app.js"></script>
+</body>
+</html>

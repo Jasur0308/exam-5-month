@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 18px 124px 18px 86px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background: #000000;
+}
+
+.navbar__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__lists {
+    display: flex;
+    gap: 42px;
+}
+
+.item__link {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.hero__image {
+    margin: 0 auto;
+    max-height: 416px;
+}
+
+.articles {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #000000;
+    padding-top: 36px;
+}
+
+.main__title {
+    font-family: Jomolhari;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 74px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.cards {
+    max-width: 1380px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 92px;
+    margin-bottom: 52px;
+}
+
+.card {
+    max-width: 276px;
+    width: 100%;
+    background-color: #fff;
+    min-height: 336px;
+    background: #1E1E1E;
+    border: 3px solid #F0DE36;
+}
+
+.card__content {
+    padding: 7px;
+}
+
+.title {
+    font-family: Jomolhari;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.description {
+    margin-top: 7px;
+    font-family: Jomolhari;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.card__bottom {
+    margin-top: 10px;
+    display: flex;
+    gap: 9px;
+}
+
+.name {
+    font-family: Jomolhari;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.role {
+    font-family: Jomolhari;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #787878;
+    text-transform: capitalize;
+}
+
+#image {
+    width: 100%;
+}

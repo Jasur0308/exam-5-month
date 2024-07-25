@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Jomolhari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="dashboard__wrapper">
+            <div class="dashboard__panel">
+                <div class="dashboard__content">
+                    <h3 class="title">Dashboard</h3>
+                    <div class="dashboard__owner">
+                        <h4 class="name">Jasur Abdisoatov</h4>
+                        <p class="role">Author</p>
+                    </div>
+                </div>
+                <a class="dashboard__link" href="../pages/login.html">Sign out?</a>
+            </div>
+
+            <div class="create__article">
+                <h3 class="main__title">Create New Post</h3>
+                <form id="createForm">
+                    <div class="input-1">
+                        <h4 class="input__title">Post title</h4>
+                        <input class="inputElement" type="text" data-field="title">
+                    </div>
+                    <div class="inputs">
+                        <div class="input-2">
+                            <h4 class="input__title">Post image</h4>
+                            <input class="inputElement" type="text" data-field="image">
+                        </div>
+                        <div class="input-3">
+                            <h4 class="input__title">Post tag</h4>
+                            <input class="inputElement" type="text" data-field="tags">
+                        </div>
+                        <div class="rectangle"></div>
+                    </div>
+                    <div class="input-4">
+                        <h4 class="input__title">Post description</h4>
+                        <textarea class="inputElement" cols="30" rows="10" data-field="description"></textarea>
+                    </div>
+                    <div class="button">
+                        <button id="dashboardButton" type="submit">Create Post</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="products"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../script/dashboard.js"></script>
+</body>
+</html>
